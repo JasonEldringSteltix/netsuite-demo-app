@@ -1,0 +1,7 @@
+linkederp_custom/
+node_modules/
+package-lock.json
+/.idea/.gitignore
+/.idea/webResources.xml
+/.idea/vcs.xml
+/.idea/untitled.iml

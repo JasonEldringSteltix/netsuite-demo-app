@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "outDir": "linkederp_custom",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "noImplicitUseStrict": true,
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "incremental": false,
+    "lib": [
+      "dom",
+      "es5",
+      "ES2015.Promise",
+      "ES2015.Iterable"
+    ],
+    "paths": {
+      "N": [
+        "node_modules/@hitc/netsuite-types/N"
+      ],
+      "N/*": [
+        "node_modules/@hitc/netsuite-types/N/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.d.ts",
+    "src/**/*.ts",
+    "src/**/*.json",
+    "src/**/*.spec.ts"
+  ],
+  "exclude": [
+    "./node_modules/*",
+    "examples"
+  ]
+}
